@@ -11,7 +11,8 @@
 .clock-container {
   margin-top: 2rem;
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -19,12 +20,23 @@
 .child {
   background-color: dodgerblue;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 4rem;
   font-weight: 700;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+#unit {
+  background-color: gold;
+  color: black;
+}
+
+#ampm {
+  background-color: red;
+  color: white;
 }
